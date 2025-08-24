@@ -26,12 +26,18 @@ class stack{
     }
     void isempty(){
         if(top==-1){
-            cout << "is empty";
+            cout << "\nis empty";
+        }
+        else{
+            cout << "\nis not empty";
         }
     }
     void isfull(){
         if(top == size-1){
-            cout << "is full";
+            cout << "\nis full";
+        }
+        else{
+            cout <<"\nis not full!";
         }
     }
     int peak(){
@@ -53,5 +59,24 @@ int main (){
     mystack.push(60);
     mystack.push(70);
     mystack.peak();
+    mystack.isempty();
+    mystack.isfull();
     string e = "hello";
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// OUTPUT------------------
+
