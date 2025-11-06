@@ -1,71 +1,58 @@
-# Sorting Visualizer - DAA Project
+# DAA Lab - 23BCS10552_KRG_1-B
 
-**Student:** 23BCS10552 | **Class:** KRG_1-B
+**Student:** 23BCS10552 | **Class:** KRG_1-B  
+**Course:** Design and Analysis of Algorithms (DAA)
 
-An interactive sorting algorithm visualizer built with React and Tailwind CSS. Visualize how different sorting algorithms work step-by-step with animated bars.
+This repository contains lab experiments and projects for the DAA course.
 
-## 🚀 Features
+## 📁 Repository Structure
 
-- **5 Sorting Algorithms:**
-  - Bubble Sort
-  - Insertion Sort
-  - Selection Sort
-  - Merge Sort
-  - Quick Sort
+### 📊 Sorting Visualizer (React)
+**Location:** [`/sorting-visualizer-react`](./sorting-visualizer-react)
 
-- **Interactive Controls:**
-  - Play/Pause animations
-  - Step through operations one at a time
-  - Adjust animation speed (5-200ms)
-  - Customize array size (10-120 elements)
-  - Generate random arrays
-  - Reset to replay algorithm
+An interactive web-based sorting algorithm visualizer with:
+- 5 sorting algorithms (Bubble, Insertion, Selection, Merge, Quick Sort)
+- Real-time animated visualizations
+- Adjustable speed and array size controls
+- Step-by-step execution
 
-- **Visual Feedback:**
-  - Yellow bars = Comparing elements
-  - Red bars = Swapping elements
-  - Green bars = Setting values
-  - Emerald bars = Sorted elements
+**Tech Stack:** React, Tailwind CSS
 
-## 📦 Installation
+[View detailed README →](./sorting-visualizer-react/README.md)
 
+### 💻 C++ Experiments
+
+Lab experiments implemented in C++:
+- `exp1.1.cpp` - Experiment 1.1
+- `exp1.2.cpp` - Experiment 1.2
+- `exp1.3.cpp` - Experiment 1.3
+- `exp1.4.cpp` - Experiment 1.4
+- `experiment5` - Experiment 5
+- `experiment6.cpp` - Experiment 6
+- `experiment7.cpp` - Experiment 7
+- `experiment8.cpp` - Experiment 8
+- `experiment9.cpp` - Experiment 9
+
+## � Quick Start
+
+### For Sorting Visualizer:
 ```bash
-# Clone the repository
-git clone https://github.com/anonymoshiv/DAA_23BCS10552_KRG_1-B.git
-cd DAA_23BCS10552_KRG_1-B
-
-# Install dependencies
+cd sorting-visualizer-react
 npm install
-
-# Start development server
 npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### For C++ Experiments:
+```bash
+g++ exp1.1.cpp -o exp1.1
+./exp1.1
+```
 
-## 🛠️ Available Scripts
+## 📝 About
 
-### `npm start`
-Runs the app in development mode. The page will reload when you make changes.
+This repository contains coursework for the Design and Analysis of Algorithms course, including:
+- Algorithm implementations in C++
+- Interactive visualizations using React
+- Performance analysis and comparisons
+- Output screenshots and documentation
 
-### `npm test`
-Launches the test runner in interactive watch mode.
-
-### `npm run build`
-Builds the app for production to the `build` folder.
-
-## 🎓 About
-
-This project was created as part of the Design and Analysis of Algorithms (DAA) coursework to demonstrate understanding of various sorting algorithms and their visual representation.
-
-## 🧰 Built With
-
-- **React** - UI framework
-- **Tailwind CSS** - Styling
-- **Create React App** - Project setup
-
-## 📚 Learn More
-
-- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- [React documentation](https://reactjs.org/)
-- [Tailwind CSS documentation](https://tailwindcss.com/docs)
